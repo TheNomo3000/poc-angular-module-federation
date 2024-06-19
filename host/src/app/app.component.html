@@ -1,3 +1,11 @@
-Welcome to My host!
+<div class="container is-fluid">
+  <h1 class="title">Welcome to My host!</h1>
 
-<router-outlet></router-outlet>
+  <button class="button is-primary" [routerLink]="['/mfe1']">
+    Navigate to MFE1
+  </button>
+
+  <div class="router-outlet-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
